@@ -1,0 +1,238 @@
+body {
+    background-image: url("../images/noisy_net/noisy_net.png");
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+header nav {
+    list-style-type: none;
+    color: #d4cdcc;
+    /*background-color: #0b0c10;*/
+    /*border-bottom: 2px solid #4717f6;*/
+    /*border-top: 1px solid #0b0c10;*/
+    background-color: #13181c;
+    background: linear-gradient(#13181c, #13181cde, rgba(255, 0, 0, 0));
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 25px;
+    padding: 6px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+header {
+    color: #d4cdcc;
+    background-color: #4717f6;
+    background: linear-gradient(#4717f6, rgba(255, 0, 0, 0));
+    font-family: 'Amaranth', sans-serif;
+    padding: 20vh 0;
+    height: 60vh;
+    margin: 0px 0 10px 0;
+    text-align: center;
+}
+
+header #heading h1 {
+    font-size: 4em;
+}
+
+header ul li {
+    display: inline;
+    padding: 1%;
+}
+
+#leftLink,
+#rightLink {
+    width: 47.5%;
+    display: block;
+    padding: 1.25%;
+    font-size: 2em;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#leftLink {
+    text-align: center;
+    float: left;
+    clear: left;
+}
+
+#rightLink {
+    text-align: center;
+    float: left;
+    clear: right;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #d4cdcc;
+    padding: 5px;
+}
+
+a:hover {
+    background: #4717f6;
+    padding: 5px;
+}
+
+.extLink:hover {
+    background: none;
+    color: #ffffff;
+}
+
+#current {
+    text-decoration: underline;
+}
+
+body h2 {
+    color: #d4cdcc;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 30px;
+    padding: 30px 0 15px 10px;
+}
+
+.about p {
+    font-family: 'Quicksand', sans-serif;
+    color: #d4cdcc;
+    font-size: 18px;
+    line-height: 1.8;
+    border-top: 2px solid #a239ca;
+    border-bottom: 2px solid #a239ca;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.block {
+    display: block;
+    overflow: hidden;
+    height: 150px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #a239ca;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+#portfolioDiv {
+    margin-top: 70px;
+}
+
+.portfolio p {
+    font-family: 'Amaranth', sans-serif;
+    color: #d4cdcc;
+    font-size: 18px;
+    padding: 0 15px 15px 15px;
+    border-bottom: 2px solid #a239ca;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+section {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+}
+
+article p {
+    text-align: center;
+}
+
+.floatLeft, .floatRight{
+    margin: 0 10px 0 10px;
+}
+
+span.description {
+    color: #d4cdcc;
+}
+
+.form form {
+    display: block;
+    border-top: 2px solid #a239ca;
+    border-bottom: 2px solid #a239ca;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#name,
+#email {
+    width: 50%;
+    margin: 10px 0 15px 0;
+}
+
+#message {
+    height: 8em;
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+
+.form p {
+    font-family: 'Quicksand', sans-serif;
+    color: #d4cdcc;
+    font-size: 18px;
+    line-height: 1;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: #4717f6;
+    border: 2px solid #4717f6;
+    border-radius: 5px;
+    color: #e7dfdd;
+    font-family: 'Amaranth', sans-serif;
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    float: right;
+}
+
+.container {
+    clear: both;
+}
+
+footer p {
+    padding: 4.5em 0 1.5em 0;
+    background: linear-gradient(rgba(255, 0, 0, 0), #4717f6);
+    margin-top: 1em;
+    text-align: center;
+    color: #d4cdcc;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    header ul {
+        font-size: 18px;
+    }
+    header h1 {
+        margin: 32px 0 10px 0;
+    }
+    header ul li {
+        padding: 0;
+    }
+    section {
+        float: none;
+        width: 100%;
+        margin: 0%;
+    }
+    header #heading h1 {
+        font-size: 2.5em;
+    }
+    nav, ul {
+        width: 90%;
+    }
+}

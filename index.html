@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Cabin+Sketch:700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#aboutDiv">About Me</a>
+                </li>
+                <li>
+                    |
+                </li>
+                <li>
+                    <a href="#portfolioDiv">Portfolio</a>
+                </li>
+                <li>
+                    |
+                </li>
+                <li>
+                    <a href="#contactDiv">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="heading">
+            <h1>Welcome to
+                <br>Evan Morgan's
+                <br>Portfolio</h1>
+            <div style="clear:both;">
+                <div id="leftLink">
+                    <a class="extLink" href="https://github.com/ejmorga1" target="_blank">
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div id="rightLink">
+                    <a class="extLink" href="https://www.linkedin.com/in/evanjmorgan/" target="_blank">
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="aboutDiv" class="container">
+            <div class="row">
+                <h2>About Me</h2>
+            </div>
+            <div class="about">
+                <p>I was born January 1994 in Cleveland, Ohio. I attended Lutheran High School West where I ran cross country
+                    and participated in building sets for the drama department. In 2016, I graduated from Butler University
+                    with a bachelor’s degree in actuarial science. Currently, I work part-time at Kohls as a freight associate.
+                    <br>
+                    <br> During my time at college, I learned that actuarial science was not something I was interested in pursuing.
+                    Since then, I have continued my education, while simultaneously looking for full-time employment. Currently,
+                    I am working on developing my web development and programing knowledge in hopes to work in data analysis.
+                    <br>
+                    <br> In my free time, I enjoy jogging, watching movies and tv shows, and playing video games with my friends.
+                </p>
+            </div>
+        </div>
+
+        <div id="portfolioDiv" class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <section>
+                    <div class="block">
+                        <img src="assets/images/project-1.png" alt="Project 1">
+                    </div>
+                    <article>
+                        <p>
+                            <a class="floatLeft" href="https://marcinpaszt.github.io/project-1/index.html" target="_blank">Deployed</a>
+                            <a class="floatRight" href="https://github.com/marcinpaszt/project-1" target="_blank">Code</a>
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <div class="block">
+                        <img src="assets/images/Train-Time.png" alt="Train-Time">
+                    </div>
+                    <article>
+                        <p>
+                            <a class="floatLeft" href="https://ejmorga1.github.io/Train-Time/" target="_blank">Deployed</a>
+                            <a class="floatRight" href="https://github.com/ejmorga1/Train-Time" target="_blank">Code</a>
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <div class="block">
+                        <img src="assets/images/TriviaGame.png" alt="TriviaGame">
+                    </div>
+                    <article>
+                        <p>
+                            <a class="floatLeft" href="https://ejmorga1.github.io/TriviaGame/" target="_blank">Deployed</a>
+                            <a class="floatRight" href="https://github.com/ejmorga1/TriviaGame" target="_blank">Code</a>
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <div class="block">
+                        <img src="assets/images/unit-4-game.png" alt="unit-4-game">
+                    </div>
+                    <article>
+                        <p>
+                            <a class="floatLeft" href="https://ejmorga1.github.io/unit-4-game/" target="_blank">Deployed</a>
+                            <a class="floatRight" href="https://github.com/ejmorga1/unit-4-game" target="_blank">Code</a>
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <div class="block">
+                        <img src="assets/images/Word-Guess-Game.png" alt="Word-Guess-Game">
+                    </div>
+                    <article>
+                        <p>
+                            <a class="floatLeft" href="https://ejmorga1.github.io/Word-Guess-Game/" target="_blank">Deployed</a>
+                            <a class="floatRight" href="https://github.com/ejmorga1/Word-Guess-Game" target="_blank">Code</a>
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <div class="block">
+                        <img src="assets/images/Giphy-API.png" alt="Giphy-API">
+                    </div>
+                    <article>
+                        <p>
+                            <a class="floatLeft" href="https://ejmorga1.github.io/Giphy-API/" target="_blank">Deployed</a>
+                            <a class="floatRight" href="https://github.com/ejmorga1/Giphy-API" target="_blank">Code</a>
+                        </p>
+                    </article>
+                </section>
+
+            </div>
+        </div>
+
+        <div id="contactDiv" class="container">
+            <h2>Contact Me</h2>
+            <div class="form">
+                <form id="form" method="post" action="#">
+                    <fieldset>
+                        <p>
+                            <label for="name">Name
+                                <em>(Required)</em>
+                            </label>
+                            <br/>
+                            <input type="text" id="name" name="name" class="required" /> </p>
+                        <p>
+                            <label for="email">Email Address
+                                <em>(Required)</em>
+                            </label>
+                            <br/>
+                            <input type="text" id="email" name="email" class="required email" /> </p>
+                        <p>
+                            <label for="message">Message
+                                <em>(Required)</em>
+                            </label>
+                            <br/>
+                            <textarea type="text" id="message" name="message"></textarea>
+                        </p>
+
+                        <p>
+                            <input class="submit" type="submit" value="Submit" /> </p>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Email: ejmorga1@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>
