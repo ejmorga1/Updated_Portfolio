@@ -30,7 +30,7 @@ header nav {
 header {
     color: #d4cdcc;
     background-color: #4717f6;
-    background: linear-gradient(#4717f6, rgba(255, 0, 0, 0));
+    background: linear-gradient(#4717f6de, #4717f64b, rgba(255, 0, 0, 0));
     font-family: 'Amaranth', sans-serif;
     padding: 20vh 0;
     height: 60vh;
@@ -74,15 +74,28 @@ a:active {
     text-decoration: none;
     color: #d4cdcc;
     padding: 5px;
+    background: #0f1316;
+    border-radius: 5px;
+    border: 2px solid #1a2025;
 }
 
 a:hover {
     background: #4717f6;
     padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #1a2025;
+}
+
+.extLink:link,
+.extLink:visited,
+.extLink:active {
+    background: none;
+    border: none;
 }
 
 .extLink:hover {
     background: none;
+    border: none;
     color: #ffffff;
 }
 
@@ -127,24 +140,26 @@ body h2 {
     margin-top: 70px;
 }
 
-.portfolio p {
-    font-family: 'Amaranth', sans-serif;
-    color: #d4cdcc;
-    font-size: 18px;
-    padding: 0 15px 15px 15px;
-    border-bottom: 2px solid #a239ca;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    line-height: 1.8;
-    margin-bottom: 40px;
-}
-
 .portfolio h3 {
     font-size: 25px;
     font-family: 'Amaranth', sans-serif;
     color: #d4cdcc;
     padding: 10px;
     text-align: center;
+    background: #12161a;
+}
+
+.portfolio p {
+    font-family: 'Amaranth', sans-serif;
+    color: #d4cdcc;
+    font-size: 18px;
+    padding: 0 15px 15px 15px;
+    background: #12161a;
+    border-bottom: 2px solid #a239ca;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    line-height: 1.8;
+    margin-bottom: 40px;
 }
 
 section {
