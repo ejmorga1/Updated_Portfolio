@@ -119,7 +119,8 @@ body h2 {
 }
 
 .portfolio img {
-    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
 }
 
 #portfolioDiv {
@@ -136,6 +137,14 @@ body h2 {
     border-bottom-right-radius: 15px;
     line-height: 1.8;
     margin-bottom: 40px;
+}
+
+.portfolio h3 {
+    font-size: 25px;
+    font-family: 'Amaranth', sans-serif;
+    color: #d4cdcc;
+    padding: 10px;
+    text-align: center;
 }
 
 section {
