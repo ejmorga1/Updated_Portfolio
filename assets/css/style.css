@@ -13,10 +13,9 @@ header nav {
     color: #d4cdcc;
     /*background-color: #0b0c10;*/
     /*border-bottom: 2px solid #4717f6;*/
-    /*border-top: 1px solid #0b0c10;*/
+    border-bottom: 2px solid #1f2536;
     background-color: #13181c;
-    background: linear-gradient(#13181c, #13181cde, rgba(255, 0, 0, 0));
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Tajawal', sans-serif;
     font-size: 25px;
     padding: 6px;
     margin: 0;
@@ -24,16 +23,16 @@ header nav {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
 }
 
 header {
-    color: #d4cdcc;
-    background-color: #4717f6;
-    background: linear-gradient(#4717f6de, #4717f64b, rgba(255, 0, 0, 0));
-    font-family: 'Amaranth', sans-serif;
-    padding: 20vh 0;
-    height: 60vh;
+    color: #1f2536;
+    background-color: #ffffff;
+    background: linear-gradient(#ffffffde, #ffffff4b, rgba(255, 0, 0, 0));
+    background-image: url(../images/oleg-laptev-546613-unsplash.jpg);/*Photo by Oleg Laptev on Unsplash */
+    font-family: 'Cinzel', serif;
+    padding: 30vh 0;
+    height: 45vh;
     margin: 0px 0 10px 0;
     text-align: center;
 }
@@ -53,19 +52,12 @@ header ul li {
     display: block;
     padding: 1.25%;
     font-size: 2em;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Tajawal', sans-serif;
 }
 
-#leftLink {
-    text-align: center;
-    float: left;
-    clear: left;
-}
-
-#rightLink {
-    text-align: center;
-    float: left;
-    clear: right;
+.logoLink {
+    margin-top: 8em;
+    height: 3em;
 }
 
 a:link,
@@ -97,28 +89,27 @@ a:hover {
     background: none;
     border: none;
     color: #ffffff;
-}
-
-#current {
     text-decoration: underline;
 }
 
 body h2 {
     color: #d4cdcc;
-    font-family: 'Amaranth', sans-serif;
-    font-size: 30px;
-    padding: 30px 0 15px 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    text-align: center;
+    padding: 1em 0 15px 10px;
 }
 
 .about p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     color: #d4cdcc;
     font-size: 18px;
     line-height: 1.8;
-    border-top: 2px solid #a239ca;
-    border-bottom: 2px solid #a239ca;
+    border-top: 2px solid #1f2536;
+    border-bottom: 2px solid #1f2536;
     padding: 20px;
     border-radius: 15px;
+    background: #12161a;
 }
 
 .block {
@@ -126,7 +117,7 @@ body h2 {
     overflow: hidden;
     height: 150px;
     margin: 0px auto 0px auto;
-    border-top: 2px solid #a239ca;
+    border-top: 2px solid #1f2536;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -142,7 +133,7 @@ body h2 {
 
 .portfolio h3 {
     font-size: 25px;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     color: #d4cdcc;
     padding: 10px;
     text-align: center;
@@ -150,12 +141,12 @@ body h2 {
 }
 
 .portfolio p {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     color: #d4cdcc;
     font-size: 18px;
     padding: 0 15px 15px 15px;
     background: #12161a;
-    border-bottom: 2px solid #a239ca;
+    border-bottom: 2px solid #1f2536;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     line-height: 1.8;
@@ -172,7 +163,8 @@ article p {
     text-align: center;
 }
 
-.floatLeft, .floatRight{
+.floatLeft,
+.floatRight {
     margin: 0 10px 0 10px;
 }
 
@@ -182,10 +174,11 @@ span.description {
 
 .form form {
     display: block;
-    border-top: 2px solid #a239ca;
-    border-bottom: 2px solid #a239ca;
+    border-top: 2px solid #1f2536;
+    border-bottom: 2px solid #1f2536;
     padding: 20px;
     border-radius: 15px;
+    background: #12161a;
 }
 
 #name,
@@ -201,7 +194,7 @@ span.description {
 }
 
 .form p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     color: #d4cdcc;
     font-size: 18px;
     line-height: 1;
@@ -213,11 +206,11 @@ textarea {
 }
 
 .submit {
-    background-color: #4717f6;
-    border: 2px solid #4717f6;
+    background-color: #1f2536;
+    border: 2px solid #1f2536;
     border-radius: 5px;
     color: #e7dfdd;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     height: auto;
     width: auto;
     padding: 10px 20px;
@@ -231,11 +224,11 @@ textarea {
 
 footer p {
     padding: 4.5em 0 1.5em 0;
-    background: linear-gradient(rgba(255, 0, 0, 0), #4717f6);
+    background: linear-gradient(rgba(255, 0, 0, 0), #1f2536);
     margin-top: 1em;
     text-align: center;
     color: #d4cdcc;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tajawal', sans-serif;
 }
 
 @media screen and (max-width: 480px) {
@@ -256,7 +249,8 @@ footer p {
     header #heading h1 {
         font-size: 2.5em;
     }
-    nav, ul {
+    nav,
+    ul {
         width: 90%;
     }
 }
