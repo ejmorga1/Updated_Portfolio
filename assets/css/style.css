@@ -29,7 +29,8 @@ header {
     color: #1f2536;
     background-color: #ffffff;
     background: linear-gradient(#ffffffde, #ffffff4b, rgba(255, 0, 0, 0));
-    background-image: url(../images/oleg-laptev-546613-unsplash.jpg);/*Photo by Oleg Laptev on Unsplash */
+    background-image: url(../images/oleg-laptev-546613-unsplash.jpg);
+    /*Photo by Oleg Laptev on Unsplash */
     font-family: 'Cinzel', serif;
     padding: 30vh 0;
     height: 45vh;
@@ -231,7 +232,23 @@ footer p {
     font-family: 'Tajawal', sans-serif;
 }
 
-@media screen and (max-width: 480px) {
+/* hr {
+    border: 0;
+    height: 0;
+    border-bottom: 2px solid #46464da6;
+} */
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #12161a,#d4cdccd3, #12161a);
+    background-image: -moz-linear-gradient(left, #12161a,#d4cdccd3, #12161a);
+    background-image: -ms-linear-gradient(left, #12161a,#d4cdccd3, #12161a);
+    background-image: -o-linear-gradient(left, #12161a,#d4cdccd3, #12161a);
+    }
+
+@media screen and (max-width: 940px) {
     header ul {
         font-size: 18px;
     }
